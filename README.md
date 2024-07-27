@@ -50,10 +50,10 @@ spec:
         ports:
         - containerPort: 4499
   =========================================================================================================================================================================
-  CREATE SERVICE
-  vi service.yml
+CREATE SERVICE
+vi service.yml
 
-  apiVersion: v1
+apiVersion: v1
 kind: Service
 metadata:
   name: wisecow-service
